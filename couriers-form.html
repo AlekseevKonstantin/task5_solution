@@ -8,17 +8,15 @@
 
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style-couriers.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
 </head>
 <body>
   
   <div class="kurierchikof-rs-top-menu">
-    <nav class="navbar navbar-default navbar-static-top custom-background-white custom-nav custom-font">
+    <nav class="navbar navbar-default navbar-static-top custom-background-white custom-nav">
       <div class="container h-100 custom-small-h100">
         <div class="navbar-header h-100 pull-left custom-small-h100">
-          <a class="navbar-brand" href="#"><img class="custom-logo-img" src="img/logo.png" alt="Logo"></a>
+          <a class="navbar-brand do-flex do-align-center" href="#"><img class="custom-logo-img" src="img/logo.png" alt="Logo"></a>
         </div>
 
         <div class="navbar-header pull-right custom-small-h100 custom-align-btn">
@@ -35,13 +33,15 @@
 
         <div class="collapse navbar-collapse custom-big-h-100 w-100p" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav h-100 do-flex do-align-center m-l-1p w-25p custom-first-line">
-            <li class="custom-nav-item"><a href="#" class="custom-nav-link no-word-wrap active">Мои заказы <span class="sr-only">(current)</span></a></li>
+            <li class="custom-nav-item" style="margin-left: -3px;"><a href="#" class="no-word-wrap custom-nav-link">Мои заказы <span class="sr-only">(current)</span></a></li>
             <li class="custom-nav-item"><a href="#" class="custom-nav-link">Тарифы</a></li>
           </ul>
 
           <div class="do-flex do-no-wrap do-justify-end do-align-center h-100 custom-second-line">
             <form class="navbar-form h-100 col-xs-4 do-flex do-align-center p-0 ">
-              <button type="submit" class="btn custom-btn-create-order">Создать заказ</button>
+              <button type="submit" class="btn custom-btn-create-order do-flex do-align-center do-justify-center">
+                <span> Создать заказ </span>
+              </button>
               <button type="button" class="btn custom-btn-cog p-0 ">
                 <span class="custom-fas-wrapper">
                   <i class="fas fa-cog custom-cog-color"></i>
@@ -50,9 +50,9 @@
               </button>
             </form>
             
-            <ul class="nav navbar-nav navbar-right h-100 w-216 m-l-15 do-flex do-justify-end custom-thrid-line custom-m-t-10">
+            <ul class="nav navbar-nav navbar-right h-100 do-flex do-justify-end custom-thrid-line custom-m-t-10">
               <li class="dropdown w-100p h-100">
-                <a href="#" class="dropdown-toggle do-flex do-align-center do-no-wrap do-justify-end custom-nav-btn-link"
+                <a href="#" class="dropdown-toggle do-flex do-align-center do-no-wrap custom-nav-btn-link"
                             data-toggle="dropdown" 
                             role="button" 
                             aria-haspopup="true" 
@@ -67,7 +67,7 @@
                   </div>
                 </a>
 
-                <ul class="dropdown-menu custom-dropdown">
+                <ul class="dropdown-menu custom-dropdown fa-ul">
                   <li class="do-flex do-direction-column do-align-start">
                     <p class="custom-dropdown-comment">
                       <span class="custom-dropdown-balance">Баланс: 0 р.</span> 
@@ -76,29 +76,30 @@
                     <p class="custom-dropdown-comment">Скидка: %</p>
                   </li>
                   <li role="separator" class="divider"></li>
-                  <li class="custom-dropdown-item">
+                  <li class="custom-dropdown-item fa-li">
                     <a href="#" class="custom-dropdown-link">
                       <i class="fas fa-user fa-fw"></i>&ensp;
-                      Профиль
+
+                      <span style="margin-left: -7px;">Профиль</span>
                     </a>
                   </li>
-                  <li class="custom-dropdown-item">
+                  <li class="custom-dropdown-item fa-li">
                     <a href="#" class="custom-dropdown-link">
                       <i class="fas fa-money-bill-alt fa-fw"></i>&ensp;
-                      Баланс
+                      <span style="margin-left: -2px;">Баланс</span>
                     </a>
                   </li>
                   
-                  <li class="custom-dropdown-item">
+                  <li class="custom-dropdown-item fa-li">
                     <a href="#" class="custom-dropdown-link">
                       <i class="fas fa-map-marker-alt fa-fw"></i>&ensp;
-                      Пункты выдачи
+                      <span style="margin-left: -8px;">Пункты выдачи</span>
                     </a>
                   </li>
-                  <li class="custom-dropdown-item m-b-5">
+                  <li class="custom-dropdown-item m-b-5 fa-li">
                     <a href="#" class="custom-dropdown-link">
                       <i class="fas fa-sign-out-alt fa-fw"></i>&ensp;
-                      Выход
+                      <span style="margin-left: -5px;">Выход</span>
                     </a>
                   </li>
                 </ul>
@@ -113,7 +114,7 @@
   </div> 
 
   <div class="kurierchikof-rs-couriers-form m-t-n18">
-    <div class="container custom-font">
+    <div class="container">
       <div class="row">
 
         <div class="col-sm-12">
@@ -127,7 +128,7 @@
               </div>
             
 
-              <ul class="nav do-flex do-align-center h-100 m-t-10">
+              <ul class="nav do-flex do-align-center do-vsmall-direction-column do-vsmall-align-center h-100">
                 <li role="presentation" class="custom-wrapper-nav-link"><a href="#" class="custom-nav-link">Мои заказы</a></li>
                 <li role="presentation" class="custom-wrapper-nav-link"><a href="#" class="custom-nav-link">Архив заказов</a></li>
                 <li role="presentation" class="custom-wrapper-nav-link"><a href="#" class="custom-nav-link">Курьеры</a></li>
@@ -144,7 +145,7 @@
           </ul>
         </div>
 
-        <div class="col-sm-12 m-t-25">
+        <div class="col-sm-12">
           <h5 class="custom-black-list-head">Черный список</h5> 
           <ul class="custom-black-list">
             <li class="custom-black-list-item">Список пуст</li>

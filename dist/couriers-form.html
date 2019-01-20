@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Ведомость</title>
+  <title>Курьеры</title>
 
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/style-statement.css">
-  <link rel="stylesheet" href="css/all.min.css">
-
+  <link rel="stylesheet" href="css/style-couriers.css">
 </head>
 <body>
-
+  
   <div class="kurierchikof-rs-top-menu">
     <nav class="navbar navbar-default navbar-static-top custom-background-white custom-nav">
       <div class="container h-100 custom-small-h100">
@@ -112,45 +109,52 @@
         
       </div>
     </nav>
-  </div>
+  </div> 
 
-  <div class="kurierchikof-rs-statement-form m-t-n18">
+  <div class="kurierchikof-rs-couriers-form m-t-n18">
     <div class="container">
       <div class="row">
 
         <div class="col-sm-12">
             
-          <div class="custom-block-header do-flex do-justify-space-between do-align-center do-small-direction-column do-small-align-start">
- 
-            <div class="do-flex do-align-center"> 
-              <h2 class="custom-head">Ведомость</h2>
-              <div class="custom-order-num-wrapper">
-                <p class="custom-order-num">4</p>
+            <div class="custom-block-header do-flex do-justify-space-between do-align-center do-small-direction-column do-small-align-start">
+              <div class="do-flex do-align-center"> 
+                <h2 class="custom-head">Курьеры</h2>
+                <div class="custom-order-num-wrapper">
+                  <p class="custom-order-num">3</p>
+                </div>
               </div>
-            </div>
+            
 
-            <ul class="nav do-flex do-align-center h-100 do-vsmall-direction-column do-vsmall-align-center" style="margin-top: -3px;">
-              <li role="presentation" class="custom-wrapper-nav-link"><a href="#" class="custom-nav-link">Мои заказы</a></li>
-              <li role="presentation" class="custom-wrapper-nav-link"><a href="#" class="custom-nav-link">Архив заказов</a></li>
-              <li role="presentation" class="custom-wrapper-nav-link"><a href="#" class="custom-nav-link">Курьеры</a></li>
-              <li role="presentation" class="custom-wrapper-nav-link"><a href="#" class="custom-nav-link">Ведомость</a></li>
-            </ul>
-
-          </div>  
-
+              <ul class="nav do-flex do-align-center do-vsmall-direction-column do-vsmall-align-center h-100">
+                <li role="presentation" class="custom-wrapper-nav-link"><a href="#" class="custom-nav-link">Мои заказы</a></li>
+                <li role="presentation" class="custom-wrapper-nav-link"><a href="#" class="custom-nav-link">Архив заказов</a></li>
+                <li role="presentation" class="custom-wrapper-nav-link"><a href="#" class="custom-nav-link">Курьеры</a></li>
+                <li role="presentation" class="custom-wrapper-nav-link"><a href="#" class="custom-nav-link">Ведомость</a></li>
+              </ul>
+            </div>  
+            
         </div>
 
         <div class="col-sm-12 m-t-25">
-          <p class="custom-statement-info">Нет задолженностей от курьеров </p>
+          <h5 class="custom-favorite-list-head">Список избранных</h5>
+          <ul class="custom-favorite-list">
+            <li class="custom-favorite-list-item">Список пуст</li>
+          </ul>
         </div>
+
+        <div class="col-sm-12">
+          <h5 class="custom-black-list-head">Черный список</h5> 
+          <ul class="custom-black-list">
+            <li class="custom-black-list-item">Список пуст</li>
+          </ul>  
+        </div>  
 
       </div>
     </div>    
   </div>
 
   <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.js"></script>
   <script src="js/script.js"></script>
-  
 </body>
 </html>

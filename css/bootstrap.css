@@ -3526,7 +3526,7 @@ tbody.collapse.in {
   float: left;
   min-width: 160px;
   padding: 5px 0;
-  margin: 2px 0 0;
+  /* margin: 2px 0 0; */
   font-size: 14px;
   text-align: left;
   list-style: none;
@@ -3988,7 +3988,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
+  background-color: transparent;
 }
 .nav > li.disabled > a {
   color: #777;

@@ -674,8 +674,6 @@ button.close{-webkit-appearance:none;padding:0;cursor:pointer;background:transpa
 @font-face{font-family:'Open Sans Regular';src:url('../fonts/OpenSans-Regular.eot');src:url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),url('../fonts/OpenSans-Regular.woff') format('woff'),url('../fonts/OpenSans-Regular.ttf') format('truetype');font-weight:normal;font-style:normal}
 .kurierchikof-rs-top-menu button:active,.kurierchikof-rs-archive-form button:active,.kurierchikof-rs-top-menu button:focus,.kurierchikof-rs-archive-form button:active{outline:none !important;box-shadow:none !important}
 .kurierchikof-rs-top-menu button::-moz-focus-inner,.kurierchikof-rs-archive-form button::-moz-focus-inner{border:0 !important;box-shadow:none !important}
-.kurierchikof-rs-top-menu button:active,.kurierchikof-rs-archive-form button:active,.kurierchikof-rs-top-menu button:focus,.kurierchikof-rs-archive-form button:active{outline:none !important;box-shadow:none !important}
-.kurierchikof-rs-top-menu button::-moz-focus-inner,.kurierchikof-rs-archive-form button::-moz-focus-inner{border:0 !important;box-shadow:none !important}
 .kurierchikof-rs-top-menu p,.kurierchikof-rs-top-menu h1,.kurierchikof-rs-top-menu h2,.kurierchikof-rs-top-menu h3,.kurierchikof-rs-top-menu h4,.kurierchikof-rs-top-menu h5,.kurierchikof-rs-top-menu h6,.kurierchikof-rs-top-menu a,.kurierchikof-rs-top-menu button,.kurierchikof-rs-top-menu div,.kurierchikof-rs-top-menu span,.kurierchikof-rs-archive-form p,.kurierchikof-rs-archive-form h1,.kurierchikof-rs-archive-form h2,.kurierchikof-rs-archive-form h3,.kurierchikof-rs-archive-form h4,.kurierchikof-rs-archive-form h5,.kurierchikof-rs-archive-form h6,.kurierchikof-rs-archive-form a,.kurierchikof-rs-archive-form button,.kurierchikof-rs-archive-form div,.kurierchikof-rs-archive-form span{font-family:'Open Sans Regular',sans-serif}
 .kurierchikof-rs-archive-form a,.kurierchikof-rs-archive-form a:hover{text-decoration:none}
 .kurierchikof-rs-archive-form{padding-top:50px;padding-bottom:59px;background-color:#f4f8f7}
@@ -1566,7 +1564,8 @@ th.visible-xs,td.visible-xs{display:table-cell !important}.visible-xs-block{disp
 .kurierchikof-rs-top-menu .custom-nav-link{padding-left:15px !important;font-size:16px}
 .kurierchikof-rs-top-menu .custom-dropdown{width:95% !important;box-shadow:none !important}
 .kurierchikof-rs-top-menu .container>.navbar-collapse{margin-left:0;margin-right:0}
-.kurierchikof-rs-top-menu .container>.navbar-collapse::before{content:'';position:absolute;top:100%;left:0;width:calc(100% - 30px);margin-left:15px;height:7px;box-shadow:0 7.6px 7.6px -3.9px rgba(0,0,0,0.09) inset}
+.kurierchikof-rs-top-menu .container{padding-left:0;padding-right:0}.kurierchikof-rs-top-menu .pull-left{margin-left:15px}
+.kurierchikof-rs-top-menu .pull-right{margin-right:15px}.kurierchikof-rs-top-menu .container>.navbar-collapse::before{content:'';position:absolute;top:100%;left:0;width:100%;height:7px;box-shadow:0 7.6px 7.6px -3.9px rgba(0,0,0,0.09) inset}
 .kurierchikof-rs-top-menu .fa-ul{margin-left:0 !important}.kurierchikof-rs-top-menu .custom-thrid-line,.kurierchikof-rs-top-menu .custom-second-line,.kurierchikof-rs-top-menu .custom-first-line{flex-direction:column;align-items:flex-start;width:100%}
 .kurierchikof-rs-top-menu .custom-second-line,.kurierchikof-rs-top-menu .custom-first-line{margin-left:15px}
 .kurierchikof-rs-top-menu .custom-first-line{margin-top:25px !important}.kurierchikof-rs-top-menu .custom-second-line{align-items:flex-start}
